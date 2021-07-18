@@ -1,5 +1,5 @@
 # Load private zshenv if exists.
-[ -f ~/.zshenv.private ] source ~/.zshenv.private
+[ -f ~/.zshenv.private ] && source ~/.zshenv.private
 
 # Custom PATH.
 export PATH=$HOME/.local/bin:/usr/local/go/bin:/usr/local/bin:usr/local/sbin:$PATH

@@ -9,7 +9,7 @@
 
 ## Configurations
 
-### Remove stale agent sockets (e.g. GPG Agent Socket) (Do this servers)
+### Remove stale agent sockets (e.g. GPG Agent Socket) (Do this in servers)
 
 ```bash
 sudo echo "StreamLocalBindUnlink yes" >> /etc/ssh/sshd_config
