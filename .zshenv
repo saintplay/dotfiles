@@ -6,7 +6,7 @@ export PATH=$HOME/.local/bin:/usr/local/go/bin:/usr/local/bin:usr/local/sbin:$PA
 
 # Additional Path: Google Cloud.
 # source "$HOME/google-cloud-sdk/completion.zsh.inc"
-source "$HOME/google-cloud-sdk/path.zsh.inc"
+# source "$HOME/google-cloud-sdk/path.zsh.inc"
 
 # Use most as default pager.
 export PAGER=most

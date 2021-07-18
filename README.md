@@ -4,6 +4,7 @@
 
 - zsh
 - oh-my-zsh
+- go
 - most
 - vim-plug
 
