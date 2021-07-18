@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+git config --local user.name "Diego Jara"
+git config --local user.email "diegojara6@gmail.com"
+git config --local user.signingKey 119B9BC87C118425
