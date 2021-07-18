@@ -1,14 +1,32 @@
 # Dotfiles
 
+At the moment I only support macOS and Linux. Windows: TODO?
+
 ## Dependencies
 
-- zsh
-- oh-my-zsh
 - go
 - most
 - vim-plug
 
-## Configurations
+### Linux dependencies
+
+- zsh
+- oh-my-zsh
+
+### macOS dependencies
+
+- homebrew
+- pinentry-mac
+
+## macOS
+
+### Stop GPG Tools asking to store password in keychain
+
+```bash
+defaults write org.gpgtools.common DisableKeychain -bool yes
+```
+
+## Linux
 
 ### Remove stale agent sockets (e.g. GPG Agent Socket) (Do this in servers)
 
@@ -16,10 +34,8 @@
 sudo echo "StreamLocalBindUnlink yes" >> /etc/ssh/sshd_config
 ```
 
-## Linux
-
 ### Set zsh as default shell
 
 ```bash
-sudo hsh -s /usr/bin/zsh $(whoami)
+sudo chsh -s /usr/bin/zsh $(whoami)
 ```
