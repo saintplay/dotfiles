@@ -6,3 +6,7 @@
 	excludesfile = ~/.gitignore
 [commit]
 	gpgsign = true
+
+# Always use SSH instead of Git HTTP protocol.
+[url "git@github.com:"]
+	insteadOf = https://github.com/
